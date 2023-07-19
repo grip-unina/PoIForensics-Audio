@@ -50,6 +50,8 @@ We gratefully acknowledge the support of this research by the Defense Advanced R
 
 ## Paper citation
 
+If you use our code, please remember to cite us using the data below:
+
 ```
 @inproceedings{pianese2022deepfake,
   title={Deepfake audio detection by speaker verification},
