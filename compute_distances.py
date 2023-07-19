@@ -62,7 +62,7 @@ if __name__ == '__main__':
             try:
                 list_dict[context].append(np.load(features_file))
             except:
-                print('ERROR with ref file: ', poi, context, feat_file)
+                print('ERROR with ref file: ', poi, context, features_file)
 
         ## Concatenate the list into an array
         for k in list_dict:
