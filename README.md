@@ -36,7 +36,7 @@ If you want to test on your own data, you will need to create a csv file in a si
 
 The second step is to compute the distances of the audios under test given the audios in the reference set. To compute these distances from the previous example using the Multi-Similarity strategy you can simply run:
 
-```python compute_distances.py --dataset-csv CSVs/InTheWild.csv --dataset-name InTheWild --strategy --strategy ms```
+```python compute_distances.py --dataset-csv CSVs/InTheWild.csv --dataset-name InTheWild --strategy ms```
 
 A single csv file will be saved in the ```./scores/``` folder where for each audio file there will be a value of the distance from the reference set. Refer to the [compute_distances.py](compute_distances.py) file for the complete parameters declaration.
 
